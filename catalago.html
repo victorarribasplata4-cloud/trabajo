@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalago</title>
+    <style>
+   header {background: linear-gradient(to right, rgb(0, 187, 255), rgb(255, 255, 255));color: rgb(0, 0, 0);text-align: center;padding: 30px;}
+ .tarjeta {background-color: white;width: 250px;height: 260px;border-radius: 10px;border: 1px solid #ddd;box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);text-align: center;overflow: hidden;transition: 0.3s;}
+ .catalogo {display: grid;grid-template-columns: repeat(7, 1fr);gap: 20px;padding: 30px 8px;}
+ .catalogo {display: grid;/* 7 cuadros por fila */grid-template-columns: repeat(7, 1fr);gap: 18px;padding: 40px 16px;}
+ .tarjeta:hover img {transform: scale(1.2);}
+  nav { background-color: #15d0ff; text-align: center; padding: 15px;}
+  nav a {color: rgb(0, 0, 0); text-decoration: none;margin: 20px;font-weight: bold;}
+  nav a:hover {color: #010e1e;}
+  .btn-precio {display: block;text-decoration: none;font-weight: 700;font-size: 1.05rem;color: var(--primary-color);background-color: #f1f5f9;padding: 0.5rem 1rem;border-radius: 6px;cursor: pointer; /* <--- Muestra el cursor de la manito */transition: all 0.2s ease-in-out;}
+.btn-precio:hover {background-color: #2563eb; color: #ffffff;}
+.btn-precio:active {background-color: #1d4ed8; transform: scale(0.98);  }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Tablas de Surf</h1>
+        <p>Deslízate sobre las olas, domina el mar</p>
+    </header>
+    <nav>
+        <a href="#tablas">tablas</a>
+        <a href="#promociones">promociones</a>
+        <a href="#nuevos">nuevos</a>
+    </nav>
+    <div class="catalogo">
+        <div class="tarjeta">
+             <h3>9′ Super estable | Paddle Board</h3>
+             <img src="C:\Users\Alumno\Downloads\tabla.jpg" width="140" > 
+             <a href="#" class="btn-precio"> 10</a>
+             
+        </div>
+    <div class="tarjeta">
+        <h3>7’6 Tagüa | Tablas de Surf</h3>
+        <img src="C:\Users\Alumno\Downloads\tabl.png" width="140" >
+        <a href="#" class="btn-precio"> 100</a>
+    </div>
+    <div class="tarjeta">
+        <h3>9’2 Machu Picchu Glider | Tablas de Surf</h3>
+        <img src="C:\Users\Alumno\Downloads\tab.jpg" width="120" >
+        <a href="#" class="btn-precio"> 999</a>
+    </div>
+    <div class="tarjeta">
+        <h3>6’9 HD School | Tablas de Surf</h3>
+        <img src="C:\Users\Alumno\Downloads\ta.webp" width="140">
+        <a href="#" class="btn-precio"> 599</a>
+    </div>
+    <div class="tarjeta">
+        <h3>6’4 Pura Vida | Tablas de Surf</h3>
+        <img src="C:\Users\Alumno\Downloads\t.jpg" width="140">
+        <a href="#" class="btn-precio"> 600</a>
+    </div>
+    <div class="tarjeta">
+        <h3>9’6 Cuzco Express | Tablas de Surf</h3>
+        <img src="C:\Users\Alumno\Downloads\agua.webp"  width="120">
+        <a href="#" class="btn-precio"> 850</a>
+    </div >
+    <div class="tarjeta">
+        <h3>7’6 Tagüa | Tablas de Surf</h3>
+        <img src="C:\Users\Alumno\Downloads\agu.jpg"  width="140">
+        <a href="#" class="btn-precio"> 1000</a>
+    </div>
+    </div>
